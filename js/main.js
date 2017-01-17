@@ -81,7 +81,7 @@ function validateForm(){
     }else if(contrasena.length<6){
         alert("La contraseña tiene que tener más de 6 caracteres");
         return false;
-    }else if(contrasena=="passware"){
+    }else if(contrasena=="passware"||contrasena=="123456"||contrasena=="098754"){
         alert("Tiene que ser una contraseña diferente");
         return false;
     }
